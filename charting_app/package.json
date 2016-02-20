@@ -1,0 +1,10 @@
+{
+  "jspm": {
+    "dependencies": {
+      "knockout": "github:knockout/knockout@^3.4.0"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}
