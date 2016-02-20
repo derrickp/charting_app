@@ -2,6 +2,6 @@
 charting_app/jspm_packages/*
 charting_app/node_modules/*
 charting_app/lib/*
-charting_app/bin/*
-charting_app/obj/*
-charting_app/**/*.user
+**/bin/*
+**/obj/*
+**/**/*.user
