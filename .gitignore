@@ -5,3 +5,4 @@ charting_app/lib/*
 **/bin/*
 **/obj/*
 **/**/*.user
+**/src/*
