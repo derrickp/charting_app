@@ -1,7 +1,6 @@
 .vs
-charting_app/jspm_packages/*
-charting_app/node_modules/*
-charting_app/lib/*
+**/jspm_packages/*
+**/node_modules/*
 **/bin/*
 **/obj/*
 **/**/*.user
