@@ -4,7 +4,7 @@
   DefaultTargets="All">
 
   <Target Name="AfterBuild">
-    <Copy SourceFiles="$(ProjectDir)app.js" DestinationFiles="$(SolutionDir)\charting_app\src\app.js" />
-    <Copy SourceFiles="$(ProjectDir)app.html" DestinationFiles="$(SolutionDir)\charting_app\src\app.html" />
+    <Copy SourceFiles="$(ProjectDir)app.js" DestinationFiles="$(SolutionDir)\Web\src\app.js" />
+    <Copy SourceFiles="$(ProjectDir)app.html" DestinationFiles="$(SolutionDir)\Web\src\app.html" />
   </Target>
 </Project>
