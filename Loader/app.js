@@ -1,4 +1,4 @@
-﻿import {basicConfig} from 'config/appconfig';
+﻿import {basicConfig, loadFullConfig} from 'config/appconfig';
 
 export class App {
     configureRouter(config, router) {
@@ -8,5 +8,6 @@ export class App {
         ]);
 
         this.router = router;
+        loadFullConfig();
     }
 }

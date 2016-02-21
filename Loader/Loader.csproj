@@ -74,6 +74,7 @@
   <ItemGroup>
     <Content Include="app.js" />
     <Content Include="config\appconfig.js" />
+    <None Include="config\temp-full-config.json" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
