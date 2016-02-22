@@ -1,3 +1,13 @@
 ﻿{
-    "woohoo":  "test"
+  "woohoo": "test",
+  "title": "Charting Application",
+  "routes": [
+    {
+      "route": [ "", "welcome" ],
+      "name": "welcome",
+      "moduleId": "./modules/welcome/welcome",
+      "nav": true,
+      "title": "Welcome"
+    }
+  ]
 }

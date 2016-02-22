@@ -9,6 +9,7 @@
 
   <Target Name="AfterBuild">
     <Copy SourceFiles="$(ProjectDir)app.js" DestinationFiles="$(SolutionDir)Web\src\app.js" />
+    <Copy SourceFiles="$(ProjectDir)main.js" DestinationFiles="$(SolutionDir)Web\src\main.js" />
     <Copy SourceFiles="$(ProjectDir)app.html" DestinationFiles="$(SolutionDir)Web\src\app.html" />
     <Copy SourceFiles="@(ConfigFiles)" DestinationFolder="$(SolutionDir)Web\src\config" />
   </Target>

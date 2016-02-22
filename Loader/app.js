@@ -1,13 +1,8 @@
-﻿import {basicConfig, loadFullConfig} from 'config/appconfig';
-
-export class App {
+﻿export class App {
     configureRouter(config, router) {
-        config.title = basicConfig.title ? basicConfig.title : "Charting";
-        config.map(basicConfig.routes);
+        config.title = chartingApp.config.title ? chartingApp.config.title : "Charting";
+        config.map(chartingApp.config.routes);
 
         this.router = router;
-        loadFullConfig().then((config) => {
-            console.log(config);
-        });
     }
 }
