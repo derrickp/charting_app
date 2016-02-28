@@ -5,9 +5,85 @@
     {
       "route": [ "", "welcome" ],
       "name": "welcome",
-      "moduleId": "./modules/welcome/welcome",
+      "moduleId": "./modules/welcome",
       "nav": true,
       "title": "Welcome"
+    },
+    {
+      "route": [ "", "charts" ],
+      "name": "charts",
+      "moduleId": "./modules/adaptor",
+      "nav": true,
+      "title": "Adaptor"
     }
-  ]
+  ],
+  "modules": {
+    "adaptor": {
+      "newConfig": {
+        "axisTickSize": 10,
+        "axisLabelFontSize": 14,
+        "rightGap": 0,
+
+        "sigma": 2.0,
+        "errorBars": false,
+        "fractions": false,
+        "wilsonInterval": true,
+        "customBars": false,
+        "fillGraph": true,
+        "fillAlpha": 0.15,
+        "connectSeparatedPoints": false,
+
+        "titleHeight": 28,
+        "xLabelHeight": 18,
+        "yLabelWidth": 18,
+
+        "drawXAxis": true,
+        "drawYAxis": true,
+        "axisLineColor": "black",
+        "axisLineWidth": 0.3,
+        "gridLineWidth": 0.3,
+        "axisLabelColor": "black",
+        "axisLabelWidth": 50,
+        "drawYGrid": false,
+        "drawXGrid": true,
+        "gridLineColor": "rgb(255,255,0)",
+
+        "interactionModel": null,
+        "animatedZooms": false,
+
+        "showRangeSelector": false,
+        "rangeSelectorHeight": 40,
+        "rangeSelectorPlotStrokeColor": "#808FAB",
+        "rangeSelectorPlotFillColor": "#A7B1C4",
+        "showInRangeSelector": null,
+
+        "axes": {
+          "x": {
+            "pixelsPerLabel": 70,
+            "axisLabelWidth": 60,
+            "drawGrid": true,
+            "drawAxis": true,
+            "independentTicks": true,
+            "ticker": null
+          },
+          "y": {
+            "axisLabelWidth": 50,
+            "pixelsPerLabel": 30,
+            "drawGrid": true,
+            "drawAxis": true,
+            "independentTicks": true,
+            "ticker": null
+          },
+          "y2": {
+            "axisLabelWidth": 50,
+            "pixelsPerLabel": 30,
+            "drawAxis": true,
+            "drawGrid": false,
+            "independentTicks": false,
+            "ticker": null
+          }
+        }
+      }
+    }
+  }
 }

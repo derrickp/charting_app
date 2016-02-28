@@ -1,0 +1,14 @@
+﻿<template>
+    <section>
+        <h2>${heading}</h2>
+        <label>Config:</label><input type="text" value.bind="config"/><br />
+        <label>Data:</label><input type="number" value.bind="textData" /><br />
+        <button type="button" click.trigger="createChart()">Create Chart</button>
+        <button type="button" click.trigger="addData()">Add Data</button>
+        <button type="button" click.trigger="render()">Render</button><br />
+        <button type="button" click.trigger="clear()">Clear</button><br />
+        <textarea readonly="readonly" cols="75" rows="20" value.bind="console"></textarea>
+        <div id="chart-div">
+        </div>
+    </section>
+</template>

@@ -4,10 +4,10 @@
   DefaultTargets="All">
 
   <ItemGroup>
-    <WelcomeModule Include="$(ProjectDir)Welcome\*.*"/>
+    <Modules Include="$(ProjectDir)**\*.js;$(ProjectDir)**\*.html"/>
   </ItemGroup>
 
   <Target Name="AfterBuild">
-    <Copy SourceFiles="@(WelcomeModule)" DestinationFolder="$(SolutionDir)Web\src\modules\welcome" />
+    <Copy SourceFiles="@(Modules)" DestinationFolder="$(SolutionDir)Web\src\modules" />
   </Target>
 </Project>

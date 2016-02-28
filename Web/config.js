@@ -30,6 +30,7 @@ System.config({
     "bluebird": "npm:bluebird@3.3.1",
     "bootstrap": "github:twbs/bootstrap@3.3.6",
     "core-js": "npm:core-js@1.2.6",
+    "danvk/dygraphs": "github:danvk/dygraphs@1.1.1",
     "fetch": "github:github/fetch@0.10.1",
     "font-awesome": "npm:font-awesome@4.5.0",
     "text": "github:systemjs/plugin-text@0.0.4",
