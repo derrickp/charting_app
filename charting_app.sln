@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loader", "Loader\Loader.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modules", "Modules\Modules.csproj", "{40D9FD64-1882-4F93-8BE3-E7BDD62147F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charts_Adaptor", "DyGraphs_Adaptor\Charts_Adaptor.csproj", "{008BA543-F4AE-43DD-B865-7C61C8055B0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charts_Adaptor", "Charts_Adaptor\Charts_Adaptor.csproj", "{008BA543-F4AE-43DD-B865-7C61C8055B0D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FCDF4174-533C-4213-8394-7D878ACFFC5D}"
 	ProjectSection(SolutionItems) = preProject
