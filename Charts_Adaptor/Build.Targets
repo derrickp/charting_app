@@ -4,6 +4,6 @@
   DefaultTargets="All">
 
   <Target Name="AfterBuild">
-    <Copy SourceFiles="$(ProjectDir)chart.js" DestinationFolder="$(SolutionDir)Web\src\charts" />
+    <Copy SourceFiles="$(ProjectDir)adapt-chart.js" DestinationFolder="$(SolutionDir)Web\src\charts" />
   </Target>
 </Project>

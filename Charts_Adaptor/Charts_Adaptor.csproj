@@ -75,7 +75,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="chart.js" />
+    <Content Include="adapt-chart.js" />
     <Content Include="Build.Targets">
       <SubType>Designer</SubType>
     </Content>

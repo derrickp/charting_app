@@ -1,5 +1,5 @@
 ﻿import 'whatwg-fetch';
-import {Chart} from 'charts/chart';
+import {AdaptChart} from 'charts/adapt-chart';
 
 export class Adaptor {
     heading = 'Chart Adaptor';
@@ -12,7 +12,7 @@ export class Adaptor {
 
     createChart(){
         var newCon = chartingApp.config.modules.adaptor.newConfig;
-        this.chart = new Chart(newCon);
+        this.chart = new AdaptChart({});
         this.chart.assignElement("chart-div");
     }
 

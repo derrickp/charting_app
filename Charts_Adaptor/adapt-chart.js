@@ -1,14 +1,14 @@
 ﻿import 'whatwg-fetch';
 
-export class Chart{
+export class AdaptChart {
     config;
     dy;
     element;
     data = [];
 
     constructor(chartConfig) {
-            this.config = defaultConfig;
-            this.configure(chartConfig);
+        this.config = {};
+        this.configure(chartConfig);
     }
 
     configure(chartConfig) {
@@ -86,7 +86,7 @@ export class Chart{
         this.dy.updateOptions( { 'file': this.data });
     }
 }
-var defaultConfig = {
+var defaultDygraphConfig = {
     highlightCircleSize: 3,
     highlightSeriesOpts: null,
     highlightSeriesBackgroundAlpha: 0.5,
